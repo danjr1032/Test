@@ -21,7 +21,7 @@ app.use(cors());
 
 app.use('/user', userRoute);
 app.use('/', validatePickupRequest, pickupRoute);
-app.use('/', contactRoute)
+// app.use('/', contactRoute)
 
 const mongoURI = "mongodb+srv://tapjidan:Gutet2023@trashpoint.qsmced1.mongodb.net/trashdb?retryWrites=true&w=majority";
 

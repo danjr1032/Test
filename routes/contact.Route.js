@@ -1,5 +1,5 @@
 const express = require ("express");
-const message = require ("../controller/contact.controller");
+// const message = require ("../controller/contact.controller");
 const Message = require ("../models/contact");
 
 const contactRoute = express.Router();
@@ -14,4 +14,4 @@ contactRoute.get('/messages', async (req, res) => {
     }
   });
   
-contactRoute.post('/contact', message);
+// contactRoute.post('/contact', message);
